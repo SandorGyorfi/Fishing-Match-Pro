@@ -1,42 +1,12 @@
-
-
-/*---------------------------------------------------CLASSES*/
-
-.title{
-
+body {
+    background-color: #073b17;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
 }
 
-.card{
-    
-}
-
-.swtitle{
-
-}
-
-.cttitle{
-
-}
-
-.kgtitle{
-
-}
-
-/*--------------------------------------------------ID's*/
-
-#startButton{
-
-}
-
-#stopButton{
-
-}
-
-#catchButton{
-
-}
-
-#ctDisplay{
-
+h1 {
+    color: #4f8235;
 }
 

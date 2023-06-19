@@ -1,37 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Fishing Match Pro</title>
+    <link rel="stylesheet" type="text/css" href="assets\css\style.css">
 </head>
 <body>
-    <!-----------------------------------------Main Title-->
-    <h1 class="title">fishing match pro</h1>
+    <h1>Fishing Match Pro</h1>
+    
     <div class="container">
-        <!-------------------------------------Stopwatch-->
         <div class="card">
-         <h3 class="swtitle">stopwatch</h3>
-         <button id="startButton">bait in</button>
-         <button id="stopButton">stop</button>
-         <p id="swDisplay">00:00:00</p>
-         <!------------------------------------Counter-->
-         <div class="card">
-            <h3 class="cttitle">catch counter
-            </h3>
-            <button id="catchButton"></button>
-            <p id="ctDisplay">catch</p>
-         </div>
-         <!------------------------------------KG Counter-->
-        <div class="card">
-           <h3 class="kgtitle">est kg</h3>      
-           <button id="kgButton">+kg</button> 
-           <p id="kgctDisplay">est kg summary</p>   
+            <h3>Stopwatch</h3>
+            <button id="startButton">Start</button>
+            <button id="stopButton">Stop</button>
+            <p id="stopwatchDisplay">00:00:00</p>
         </div>
-
+        
+        <div class="card">
+            <h3>Lap Counter</h3>
+            <button id="lapButton">Add Lap</button>
+            <p id="lapCounterDisplay">0</p>
+        </div>
+        
+        <div class="card">
+            <h3>Lap Times</h3>
+            <ul id="lapTimesList"></ul>
+        </div>
+        
+        <div class="card">
+            <h3>Kilogram Counter</h3>
+            <button id="kgButton">Add 1kg</button>
+            <p id="kgCounterDisplay">0kg</p>
+        </div>
+        
+        <div class="card">
+            <h3>Notes</h3>
+            <form id="noteForm">
+                <input type="text" id="noteInput" placeholder="Enter a note">
+                <button type="button" id="addNoteButton">Add Note</button>
+            </form>
+            <ul id="noteList"></ul>
         </div>
     </div>
     
+    <button id="resetButton">Reset</button>
+    
+    <script src="script.js"></script>
 </body>
-</html>  
+</html>
