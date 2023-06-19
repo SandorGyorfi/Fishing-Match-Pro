@@ -7,6 +7,54 @@ body {
 }
 
 h1 {
-    color: #4f8235;
+    color: #cce9df;
 }
 
+h3 {
+    margin-top: 0;
+    color: #cce9df;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #4f8235;
+    color: #cce9df;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+button {
+    background-color: #073b17;
+    color: #cce9df;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+input[type="text"] {
+    padding: 5px;
+    margin-right: 5px;
+    width: 150px;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    resize: none;
+    padding: 5px;
+}
