@@ -174,6 +174,7 @@ No errors were found when passing through the official (http://validator.w3.org)
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML)
 - [CSS](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
  <p>&nbsp;</p>
 
