@@ -1,6 +1,6 @@
 # Fishing Match Pro website
 
-## A website for a rising star
+## Web application for anglers
 
 ![mockup](assets/images/mockup.png)
 
@@ -143,7 +143,7 @@ No errors were found when passing through the official (http://validator.w3.org)
 
 <p>&nbsp;</p>
 
-<img src="assets\images\css_validation.png" width=850px height=420px>
+<img src="assets\images\css_validation.png" width=600px height=200px>
 
 <p>&nbsp;</p>
 
@@ -156,15 +156,15 @@ No errors were found when passing through the official (http://validator.w3.org)
 * checked on GitHub pages
 
 - Link can be found here:
-  https://sandorgyorfi.github.io/Milestone1_CI/
+  https://sandorgyorfi.github.io/Fishing-Match-Pro/
 
  <p>&nbsp;</p>
 
 ## Future Features
 
-- A new menu will be coded and it is going to be a blog integrated to social media platforms.
-- Also there will be a sub menu at the Singing page and Contact page. There will be an event and tickets system to provide cross marketing options with partners.
-- Merchandise shop will follow around summer time
+- A new menu will be created, which will be a social networking platform menu where fishermen may post their incredible catches.
+- There will also be a submenu on the main page. There will be a bait advisor system to provide outstanding bait alternatives according on the weather.
+- Merchandise shop will follow 
 
  <p>&nbsp;</p>
 
