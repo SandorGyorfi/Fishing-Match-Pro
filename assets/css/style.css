@@ -140,7 +140,7 @@ input {
 
 
 .logo {
-  color: #ffffff;
+  color: #bfaa84;
   font-weight: lighter;
   text-transform: uppercase;
   
@@ -182,11 +182,11 @@ input {
   font-size: 60px;
 }
 #lapButton {
-  font-size: 120px;
+  font-size: 95px;
 }
 
 #kgButton {
-  font-size: 130px;
+  font-size: 100px;
 }
 
 #startButton{
@@ -264,7 +264,7 @@ input {
   }
 
   .container {
-    column-count: 3;
+    width: auto;
   }
 }
 
