@@ -179,14 +179,14 @@ input {
   font-weight: lighter;
   text-align: right;
   box-shadow: 1.25px 2.5px 5px 1.25px #262020;
-  font-size: 40px;
+  font-size: 60px;
 }
 #lapButton {
-  font-size: 280px;
+  font-size: 150px;
 }
 
 #kgButton {
-  font-size: 265px;
+  font-size: 170px;
 }
 
 #startButton{
