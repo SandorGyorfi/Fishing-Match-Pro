@@ -58,7 +58,7 @@ footer {
   text-transform: capitalize;
   font-size: 70%;
   color: #fff;
-  background-color: #3c4d38;
+  background-color: #384734;
   border-radius: 3%;
   box-shadow: 1.25px 2.5px 5px 1.25px #262020;
 }
@@ -67,7 +67,7 @@ footer {
 textarea.contact-form-text {
   resize: none;
   height: 120px;
-  color: #445940;
+  color: #262020;
 }
 
 input {
@@ -102,7 +102,7 @@ input {
   background: #fff;
   padding: 20px 40px;
   outline: none;
-  color: #445940;
+  color: #262020;
   transition: 0.4s;
 }
 .contact-form-text:focus {
@@ -140,7 +140,7 @@ input {
 
 
 .logo {
-  color: #fff;
+  color: #ffffff;
   font-weight: lighter;
   text-transform: uppercase;
   
@@ -148,7 +148,7 @@ input {
 
 .outer {
   padding: 1em;
-  color: #3c4d38;
+  color: #262020;
 }
 
 .container {
@@ -167,7 +167,7 @@ input {
   color: #bfaa84;
   padding: 10px;
   margin: 10px;
-  width: 450px;
+  width: 800px;
   font-weight: lighter;
   text-align: center;
   border-radius: 3%;
@@ -179,27 +179,36 @@ input {
   font-weight: lighter;
   text-align: right;
   box-shadow: 1.25px 2.5px 5px 1.25px #262020;
+  font-size: 40px;
 }
 #lapButton {
-  font-size: 60px;
+  font-size: 110px;
 }
 
 #kgButton {
-  font-size: 60px;
+  font-size: 120px;
+}
+
+#startButton{
+  font-size: 65px;
+}
+
+#stopButton{
+  font-size: 55px;
 }
 
 #stopwatchDisplay {
-  font-size: 20px;
+  font-size: 30px;
   color: #fff;
 }
 
 #lapCounterDisplay {
-  font-size: 60px;
+  font-size: 80px;
   color: #fff;
 }
 
 #kgCounterDisplay {
-  font-size: 60px;
+  font-size: 80px;
   color: #fff;
 }
 
@@ -208,7 +217,7 @@ input {
   font-weight: lighter;
   list-style: circle;
   text-align: left;
-  font-size: 10px;
+  font-size: 25px;
 }
 
 #noteList {
