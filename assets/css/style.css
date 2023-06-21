@@ -52,7 +52,7 @@ textarea {
 }
 
 footer {
-  position: relative;
+  position: sticky;
   padding: 5px;
   text-align: left;
   text-transform: capitalize;
@@ -156,7 +156,7 @@ input {
   justify-content: center;
   background-color: #537351;
   flex-wrap: wrap;
-  margin-top: 30px;
+  margin-top: 15px;
   box-shadow: 2.5px 5px 10px 2.5px #262020;
   border-radius: 12px;
 }
@@ -165,7 +165,7 @@ input {
   background-color: #262020;
   box-shadow: 1.25px 2.5px 5px 1.25px #262020;
   color: #bfaa84;
-  padding: 10px;
+  padding: 5px;
   margin: 10px;
   width: 800px;
   font-weight: lighter;
@@ -176,10 +176,10 @@ input {
 /*-------------------------------------------------------------ID's--*/
 
 #resetButton {
-  font-weight: lighter;
-  text-align: right;
+  font-weight:lighter;
+  text-align: center;
   box-shadow: 1.25px 2.5px 5px 1.25px #262020;
-  font-size: 60px;
+  font-size: 25px;
 }
 #lapButton {
   font-size: 95px;
@@ -190,15 +190,17 @@ input {
 }
 
 #startButton{
-  font-size: 65px;
+  font-size: 30px;
+  color: #13fd02;
 }
 
 #stopButton{
-  font-size: 55px;
+  font-size: 30px;
+  color: #fd0202;
 }
 
 #stopwatchDisplay {
-  font-size: 30px;
+  font-size: 40px;
   color: #fff;
 }
 
@@ -217,7 +219,7 @@ input {
   font-weight: lighter;
   list-style: circle;
   text-align: left;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 #noteList {
@@ -225,7 +227,7 @@ input {
   font-weight: lighter;
   list-style: circle;
   text-align: left;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 /*-------------------------------------------------------------Media query--*/
@@ -249,10 +251,10 @@ input {
 
   .logo {
     font-size: 3rem;
-    margin: 15px 0 0.5rem;
+    margin: 5px 0 0.5rem;
   }
 
-  .outer {
+  .card {
     padding: 4em;
   }
 }
@@ -263,9 +265,7 @@ input {
     width: 80%;
   }
 
-  .container {
-    width: auto;
-  }
+
 }
 
 .logo {
