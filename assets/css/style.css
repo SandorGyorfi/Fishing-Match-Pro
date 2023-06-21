@@ -86,12 +86,14 @@ input {
   background: no-repeat center;
   padding: 40px 0;
   margin: 40px;
+  border-radius: 3%;
 }
 .contact-form {
   max-width: 600px;
   margin: auto;
   padding: 0 10px;
   overflow: hidden;
+  
 }
 .contact-form-text {
   display: block;
@@ -104,6 +106,7 @@ input {
   outline: none;
   color: #262020;
   transition: 0.4s;
+  border-radius: 3%;
 }
 .contact-form-text:focus {
   box-shadow: 1.25px 2.5px 5px 1.25px #262020;
@@ -117,14 +120,15 @@ input {
   padding: 12px 44px;
   cursor: pointer;
   transition: 0.4s;
+  border-radius: 5%;
 }
 .contact-form-btn:hover {
-  background: #bfaa84;
+  background: #bfaa84; 
 }
 .sub {
   text-align: center;
-  font-size: 57%;
-  color: #73553c;
+  font-size: 70%;
+  color: #bfaa84;
 }
 
 .sub_end {
