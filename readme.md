@@ -180,33 +180,7 @@ No errors were found when passing through the official (http://validator.w3.org)
 
 # Credits
 
-- For all the contents handled to me by Olivia Magyars legal guardian and permission recieved by them as well.
 
-## Pictures:
-
-[Hauser picture](assets/images/hauser01.jpg) - All the legal rights owned by Hauser https://hauserofficial.com/, permission to use recieved.
-
-[TV series picture](assets/images/mintaapak_s2_feed.jpg) - All the legal rights owned by TV2 Hungary https://tv2csoport.hu/about_us, permission to use recieved.
-
-[TV series picture](assets/images/mintaapak_s3_feed.jpg) - All the legal rights owned by TV2 Hungary https://tv2csoport.hu/about_us, permission to use recieved.
-
-[Olivia singing picture](assets/images/egyeb02.jpg) - All the legal rights owned by the parents, permission to use recieved.
-
-[Olivia singing picture](assets/images/koviragok_fellepes02.jpg) - All the legal rights owned by the parents, permission to use recieved.
-
-[Olivia tennis picture](assets/images/tennis02.jpeg) - All the legal rights owned by the legal guardian, permission to use recieved.
-
-[Olivia tennis picture](assets/images/ommain.jpeg) - All the legal rights owned by the legal guardian, permission to use recieved.
-
-[Olivia singing picture](assets/images/tennis01.jpeg) - All the legal rights owned by legal guardian, permission to use recieved.
-
-## Videos:
-
-[Hauser video](https://www.youtube.com/embed/UTSfLE-LfPo) - All the legal rights owned by Hauser https://hauserofficial.com/, permission to use recieved.
-
-[Advertise video](https://www.youtube.com/embed/J6ybJtg1oyI) - All the legal rights owned by Richter Gedeon Nyrt. https://www.gedeonrichter.com/en/, permission to use recieved.
-
-[Fairy Tale video](https://www.youtube.com/embed/7IKgzsh3aJQ) - All the legal rights owned by Médiaszolgáltatás-támogató és Vagyonkezelő Alap. https://mtva.hu/, permission to use recieved.
 
 <p>&nbsp;</p>
 
