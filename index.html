@@ -26,19 +26,30 @@
     <div class="container">
       <!--Engine html-->
       <div class="card">
-        <h3>catch counter:</h3>
+        <div class="div1">
+        <h3>catch:</h3>
         <button id="lapButton">catch</button>
-        <h3>est kg counter:</h3>
-        <button id="kgButton">+ 1kg</button>
         <p id="lapCounterDisplay">0</p>
+        </div>
+        <div class="div2">
+        <h3>est kg:</h3>
+        <button id="kgButton">+1kg</button>
         <p id="kgCounterDisplay">0kg</p>
-        <button id="resetButton">Reset</button>
+        </div>
+        
+        
+        
+
         <h3>stopwatch</h3>
         <button id="startButton">bait in</button>
         <button id="stopButton">stop</button>
+        <button id="resetButton">Reset</button>
         <p id="stopwatchDisplay">00:00:00</p>
+        <div class="div1">
         <h3>catch times</h3>
         <ul id="lapTimesList"></ul>
+      </div>
+        <div class="div2">
         <h3>notes today</h3>
         <form id="noteForm">
           <input
@@ -50,8 +61,11 @@
         </form>
         <ul id="noteList"></ul>
       </div>
+      </div>
+    
     </div>
-    <footer>
+  
+    <footer class="footer">
       &copy; 2023 fishing match pro team
       <br />
       <p class="sign">designed by SG</p>
