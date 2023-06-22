@@ -1,59 +1,64 @@
 <!DOCTYPE html>
+<html>
+<head>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Fishing Match Pro</title>
+    <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+</head>
+<body>
+    
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <script
       src="https://kit.fontawesome.com/2491a66cc6.js"
       crossorigin="anonymous"
     ></script>
-    <title>fishing match pro</title>
   </head>
   <body>
     <nav>
-      <input type="checkbox" id="check">
+      <input type="checkbox" id="check" />
       <label for="check" class="checkbtn">
         <i class="fa-solid fa-bars"></i
       ></label>
-      <label id="ov" class="logo">fishing match pro</label>
+      <label class="logo">fishing match pro</label>
       <ul>
         <li><a class="active" href="index.html">Main</a></li>
         <li><a class="" href="contact.html">Contact</a></li>
       </ul>
     </nav>
     <div class="container">
-      <!--Engine html-->
+
+
+      <!--Catch and kg counter-->
       <div class="card">
-        <div class="div1">
-        <h3>catch:</h3>
+        <div class="divRight">
+        <h3>catch counter</h3>
         <button id="lapButton">catch</button>
         <p id="lapCounterDisplay">0</p>
-        </div>
-        <div class="div2">
-        <h3>est kg:</h3>
-        <button id="kgButton">+1kg</button>
-        <p id="kgCounterDisplay">0kg</p>
-        </div>
-        
-        
-        
-
-        <h3>stopwatch</h3>
-        <div class="div1">
-        <button id="startButton">bait in</button>
-        </div>
-        <div class="div2">
-        <button id="stopButton">stop</button>
-        </div>
-        <button id="resetButton">Reset</button>
-        <p id="stopwatchDisplay">00:00:00</p>
-        <div class="div1">
-        <h3>catch times</h3>
-        <ul id="lapTimesList"></ul>
       </div>
-        <div class="div2">
+      <div class="divLeft">
+        <h3>est kg counter</h3>
+        <button id="kgButton">+ 1kg</button>
+        <p id="kgCounterDisplay">0kg</p>
+      </div>
+      <h3>stopwatch</h3>
+      <button id="startButton">bait in</button>
+      <button id="stopButton">stop</button>
+      <p id="stopwatchDisplay">00:00:00</p>
+      <button id="resetButton">Reset</button>
+      </div>
+      <!--Stopwatch-->
+      <!--Laps-->
+
+      <div class="card">
+        <div class="divLeft">
+        <h3>catch times</h3>
+        <ol id="lapTimesList"></ol>
+        </div>
+
+      <!--Note-->
+        <div class="divRight">
         <h3>notes today</h3>
         <form id="noteForm">
           <input
@@ -63,15 +68,21 @@
           />
           <button type="button" id="addNoteButton">list</button>
         </form>
-        <ul id="noteList"></ul>
-      </div>
+        <ol id="noteList"></ol>
+        </div>
       </div>
     </div>
+
+    <button id="resetButton">Reset</button>
+
+
+
     <footer class="footer">
       &copy; 2023 fishing match pro team
       <br />
       <p class="sign">designed by SG</p>
     </footer>
+
     <script src="assets/js/script.js"></script>
   </body>
 </html>
