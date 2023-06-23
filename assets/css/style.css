@@ -31,11 +31,12 @@ h2 {
   text-transform: uppercase;
   margin-top: 0;
   color: #f6f1f1;
+  font-size: 20px;
 }
 h3 {
   font-weight: lighter;
   text-transform: uppercase;
-  text-decoration:underline;
+  text-decoration: underline;
   margin-top: 0;
   font-size: 30px;
   color: #f6f1f1;
@@ -50,6 +51,7 @@ button {
   margin-top: 10px;
   cursor: pointer;
   border-radius: 6%;
+
 }
 
 input[type="text"] {
@@ -94,17 +96,17 @@ input {
   padding: 40px 0;
   margin: 40px;
 }
-.divRight{
-   width: 50%;
-   float: right;
+.divRight {
+  width: 50%;
+  float: right;
 }
-.divLeft{
-width: 50%;
-float: left;
+.divLeft {
+  width: 50%;
+  float: left;
 }
 .contact-form {
-  max-width: 650px;
-  height: 380px;
+  max-width: 858px;
+  height: 400px;
   margin: auto;
   padding: 0 10px;
   overflow: hidden;
@@ -127,9 +129,9 @@ float: left;
   box-shadow: 1.25px 2.5px 5px 1.25px #262020;
 }
 
-.toDev{
-text-align: left;
-padding-left: 12%;
+.toDev {
+  text-align: left;
+  padding-left: 12%;
 }
 
 .contact-form-btn {
@@ -153,21 +155,19 @@ padding-left: 12%;
   color: #bfaa84;
 }
 .sub_end {
-  font-size: 250%;
-  color: #bfaa84;
+  font-size: 180%;
+  color: #f6f1f1;
   text-transform: uppercase;
 }
 .sub_end_p {
-  color: #bfaa84;
+  color: #f6f1f1;
   font-weight: lighter;
 }
-
 
 .logo {
   color: #f6f1f1;
   font-weight: lighter;
   text-transform: uppercase;
-
 }
 .outer {
   padding: 1em;
@@ -181,6 +181,7 @@ padding-left: 12%;
   margin-top: 30px;
   box-shadow: 2.5px 5px 10px 2.5px #262020;
   border-radius: 12px;
+  min-height: 100vh;
 }
 .card {
   background-color: #262020;
@@ -188,41 +189,43 @@ padding-left: 12%;
   color: #bfaa84;
   padding: 10px;
   margin: 10px;
-  width: 858px;
+  width: 700px;
+  max-width: 858px;
   font-weight: lighter;
   text-align: center;
   border-radius: 3%;
 }
 
-.sw{
+.sw {
+  
   text-align: center;
+  
 }
 
-.footer{
- text-align: center;
- position: sticky;
- top: 100%;
+.footer {
+  text-align: center;
+  position: sticky;
+  top: 100%;
 }
 
 /*-------------------------------------------------------------ID's--*/
 #resetButton {
-
   text-align: right;
   box-shadow: 1.25px 2.5px 5px 1.25px #262020;
   font-size: 30px;
 }
 #lapButton {
-  font-size: 75px;
+  font-size: 60px;
 }
 
 #kgButton {
-  font-size: 75px;
+  font-size: 60px;
 }
 
-#startButton{
+#startButton {
   font-size: 45px;
 }
-#stopButton{
+#stopButton {
   font-size: 45px;
 }
 #stopwatchDisplay {
@@ -230,12 +233,13 @@ padding-left: 12%;
   color: #f6f1f1;
 }
 #lapCounterDisplay {
-  font-size: 140px;
+  font-size: 120px;
   color: #f6f1f1;
 }
 #kgCounterDisplay {
-  font-size: 140px;
+  font-size: 120px;
   color: #f6f1f1;
+
 }
 #lapTimesList {
   text-transform: capitalize;
@@ -250,20 +254,18 @@ padding-left: 12%;
   text-align: center;
   font-size: 20px;
   color: #f6f1f1;
-
 }
 
-#noteForm{
+#noteForm {
   color: #262020;
 }
 /*-------------------------------------------------------------Media query--*/
 @media only screen and (min-width: 768px) {
-
-  .toDev{
-    text-align: center;
-    }
+  .toDev {
+    float: left;
+  }
   .logo {
-    font-size: 3rem;
+    font-size: 1.4rem;
     margin: 15px 0 0.5rem;
   }
   .outer {
@@ -275,35 +277,30 @@ padding-left: 12%;
     margin: 0 auto;
     width: 80%;
   }
-  .toDev{
-    text-align: left;
-    }
+  .toDev {
+    float: left;
+  }
   .container {
-    
     width: auto;
   }
 }
 
 .logo {
-
-  font-size: 3rem;
+  font-size: 2.2rem;
   margin: 15px 0 0.5rem;
   color: #f6f1f1;
   text-align: center;
   line-height: 100px;
   padding: 0 6px;
-  
 }
 nav ul {
   float: right;
   margin-right: 20px;
-
 }
 nav ul li {
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
-
 }
 nav ul li a {
   color: #f6f1f1;
@@ -336,30 +333,29 @@ a:hover {
 @media (max-width: 952px) {
   .logo {
     font-weight: lighter;
-    font-size: 3rem;
+    font-size: 1.6rem;
     padding: 0 6px;
   }
   nav ul li a {
     font-size: 16px;
   }
-  .toDev{
-    text-align: left;
-    }
+  .toDev {
+    float: left;
+  }
 }
 @media (max-width: 858px) {
   .checkbtn {
     display: block;
   }
-  .toDev{
-    text-align: left;
-    }
+  .toDev {
+    float: left;
+  }
   .logo {
     color: #f6f1f1;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: lighter;
     padding: 0 6px;
-    
   }
   ul {
     position: fixed;
@@ -370,13 +366,11 @@ a:hover {
     left: -100%;
     text-align: center;
     transition: all 0.4s ease-in-out;
-
   }
   nav ul li {
     display: block;
     margin: 50px 0;
     line-height: 30px;
-
   }
   nav ul li a {
     color: #f6f1f1;
