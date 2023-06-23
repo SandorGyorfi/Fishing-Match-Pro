@@ -28,9 +28,6 @@
       </ul>
     </nav>
     <div class="container">
-
-
-      <!--Catch and kg counter-->
       <div class="card">
         <div class="divRight">
         <h3>catch counter</h3>
@@ -42,42 +39,43 @@
         <button id="kgButton">+ 1kg</button>
         <p id="kgCounterDisplay">0kg</p>
       </div>
-      <h3>stopwatch</h3>
+      <h3 class="sw">stopwatch</h3>
+      <div class="divRight">
       <button id="startButton">bait in</button>
-      <button id="stopButton">stop</button>
-      <p id="stopwatchDisplay">00:00:00</p>
-      <button id="resetButton">Reset</button>
       </div>
-      <!--Stopwatch-->
-      <!--Laps-->
+      <div class="divLeft">
+      <button id="stopButton">stop</button>
+      </div>
+      <p id="stopwatchDisplay">00:00:00</p>
 
+        <button id="resetButton">Reset</button>
+
+      </div>
       <div class="card">
         <div class="divLeft">
-        <h3>catch times</h3>
-        <ol id="lapTimesList"></ol>
-        </div>
-
-      <!--Note-->
-        <div class="divRight">
-        <h3>notes today</h3>
-        <form id="noteForm">
-          <input
-            type="text"
-            id="noteInput"
-            placeholder="How's the water today?"
-          />
-          <button type="button" id="addNoteButton">list</button>
-        </form>
-        <ol id="noteList"></ol>
-        </div>
+          <h3>catch times</h3>
+          <ol id="lapTimesList"></ol>
+          </div>
+  
+          <div class="divRight">
+          <h3>notes today</h3>
+          <form id="noteForm">
+            <input
+              type="text"
+              id="noteInput"
+              placeholder="How's the water today?"
+            />
+            <button type="button" id="addNoteButton">list</button>
+          </form>
+          <ol id="noteList"></ol>
+          </div>
       </div>
     </div>
 
-    <button id="resetButton">Reset</button>
-
-
-
-    <footer class="footer">
+    </div>
+      
+     
+      <footer class="footer">
       &copy; 2023 fishing match pro team
       <br />
       <p class="sign">designed by SG</p>
