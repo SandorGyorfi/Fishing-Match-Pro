@@ -35,7 +35,9 @@ h2 {
 h3 {
   font-weight: lighter;
   text-transform: uppercase;
+  text-decoration:underline;
   margin-top: 0;
+  font-size: 30px;
   color: #f6f1f1;
 }
 button {
@@ -186,7 +188,7 @@ padding-left: 12%;
   color: #bfaa84;
   padding: 10px;
   margin: 10px;
-  width: 800px;
+  width: 858px;
   font-weight: lighter;
   text-align: center;
   border-radius: 3%;
@@ -218,36 +220,37 @@ padding-left: 12%;
 }
 
 #startButton{
-  font-size: 65px;
+  font-size: 45px;
 }
 #stopButton{
-  font-size: 65px;
+  font-size: 45px;
 }
 #stopwatchDisplay {
-  font-size: 30px;
+  font-size: 60px;
   color: #f6f1f1;
 }
 #lapCounterDisplay {
-  font-size: 80px;
+  font-size: 140px;
   color: #f6f1f1;
 }
 #kgCounterDisplay {
-  font-size: 80px;
+  font-size: 140px;
   color: #f6f1f1;
 }
 #lapTimesList {
   text-transform: capitalize;
   font-weight: lighter;
-  list-style: circle;
   text-align: center;
-  font-size: 12px;
+  font-size: 20px;
+  color: #f6f1f1;
 }
 #noteList {
   text-transform: capitalize;
   font-weight: lighter;
-  list-style: circle;
   text-align: center;
-  font-size: 12px;
+  font-size: 20px;
+  color: #f6f1f1;
+
 }
 
 #noteForm{
