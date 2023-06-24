@@ -78,7 +78,7 @@ Click [here](assets/images/wireframes.png) to visit the wireframe sample.
 
   <p>&nbsp;</p>
 
- <img src="assets/images/subscribe.png" width=850px height=600px>
+ <img src="assets\images\contact_form.png" width=850px height=600px>
 
  <p>&nbsp;</p>
 
@@ -147,6 +147,20 @@ No errors were found when passing through the official (http://validator.w3.org)
 
 <p>&nbsp;</p>
 
+### JavaScript:
+
+-Furthermore, no errors were returned upon passing through the official (https://code.visualstudio.com/)
+
+<p>&nbsp;</p>
+
+<img src="assets\images\javascript_test.png" width=600px height=200px>
+
+<p>&nbsp;</p>
+
+
+
+<p>&nbsp;</p>
+
 # Deployment
 
 - The site was deployed to GitHub pages through GitHub Desktop from VS Code.
@@ -180,7 +194,7 @@ No errors were found when passing through the official (http://validator.w3.org)
 
 # Credits
 
-
+- All the codes written by Sandor Gyorfi
 
 <p>&nbsp;</p>
 
