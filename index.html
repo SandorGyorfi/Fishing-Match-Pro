@@ -1,9 +1,6 @@
 <!DOCTYPE html>
-<html>
-<head>
 <html lang="en">
   <head>
-    <title>Fishing Match Pro</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,13 +9,8 @@
       src="https://kit.fontawesome.com/2491a66cc6.js"
       crossorigin="anonymous"
     ></script>
-</head>
-<body>
-
-
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-
   </head>
+
   <body>
     <nav>
       <input type="checkbox" id="check" />
@@ -34,74 +26,56 @@
     <div class="container">
       <div class="card">
         <div class="divRight">
-          <br>
-        </br>
-        <h3>catch counter</h3>
-        <br>
-        </br>
-        <button id="lapButton">catch</button>
-        <p id="lapCounterDisplay">0</p>
-      </div>
-      <br>
-        </br>
-      <div class="divLeft">
-        <h3>est kg counter</h3>
-        <br>
-        </br>
-        <button id="kgButton">+ 1kg</button>
-        <p id="kgCounterDisplay">0kg</p>
-      
+          <h3>catch counter</h3>
+          <!---------------------------------------------------------------------------Catch button and display-->
+          <button id="lapButton">catch</button>
+          <p id="lapCounterDisplay">0</p>
+        </div>
 
-      </div>
-      <h3 class="sw">stopwatch:</h3>
-      <br>
-        </br>
-      <div class="divRight">
-      <button id="startButton">start</button>
-      </div>
-      <div class="divLeft">
-      <button id="stopButton">stop</button>
-      </div>
-      <p id="stopwatchDisplay">00:00:00</p>
-      <br>
-        </br>
+        <div class="divLeft">
+          <h3>est kg counter</h3>
+          <!---------------------------------------------------------------------------+Kg button and display-->
+          <button id="kgButton">+1 kg</button>
+          <p id="kgCounterDisplay">0kg</p>
+        </div>
+        <h3 class="sw">stopwatch:</h3>
+        <!---------------------------------------------------------------------------Stopwatch start button-->
+        <div class="divRight">
+          <button id="startButton">bait in!</button>
+        </div>
+        <!---------------------------------------------------------------------------Stopwatch stop button-->
+        <div class="divLeft">
+          <button id="stopButton">stop</button>
+        </div>
+        <!---------------------------------------------------------------------------Stopwatch display-->
+        <p id="stopwatchDisplay">00:00:00</p>
+        <!---------------------------------------------------------------------------Reset button-->
         <button id="resetButton">Reset</button>
-        <br>
-      </br>
       </div>
+      <!---------------------------------------------------------------------------Catch lap times display-->
       <div class="card">
-        <br>
-        </br>
-          <h3>catch times</h3>
-          <br>
-        </br>
-          <ol id="lapTimesList"></ol>
-          </div>
-          <br>
-        </br>
-          <div class="card">
-          <h3>notes today</h3>
-          <br>
-        </br>
-          <form id="noteForm">
-            <input
-              type="text"
-              id="noteInput"
-              placeholder="How's the water today?"
-            />
-            <button type="button" id="addNoteButton">list</button>
-          </form>
-          <ol id="noteList"></ol>
-          <br>
-        </br>
-          </div>
+        <h3>catch times</h3>
+
+        <ol id="lapTimesList"></ol>
+      </div>
+      <!---------------------------------------------------------------------------Note form-->
+      <div class="card">
+        <h3>notes today</h3>
+
+        <form id="noteForm">
+          <input
+            type="text"
+            id="noteInput"
+            placeholder="How's the water today?"
+          />
+          <button type="button" id="addNoteButton">list</button>
+        </form>
+        <!---------------------------------------------------------------------------Note display-->
+        <ol id="noteList"></ol>
       </div>
     </div>
-
-    </div>
-      
-     
-      <footer class="footer">
+    <!---------------------------------------------------------------------------Footer-->
+    <footer class="footer">
       &copy; 2023 fishing match pro team
       <br />
       <p class="sign">designed by SG</p>

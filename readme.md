@@ -186,4 +186,4 @@ No errors were found when passing through the official (http://validator.w3.org)
 
 # Content:
 
-- All the colour themes written by order and all the codes written by Sandor Gyorfi
+- All the codes written by Sandor Gyorfi

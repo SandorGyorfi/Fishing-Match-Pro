@@ -24,39 +24,49 @@
         <li><a class="active" href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <div class="outer">
-      <h2><a target="_blank" href="contact.html"></a></h2>
-      <h2 class="toDev">to developer:</h2>
-      <div class="contact-section">
-        <form class="contact-form" action="subscribed.html">
-          <input
-            type="text"
-            class="contact-form-text"
-            placeholder="Your name"
-            required
-          /><input
-            type="email"
-            class="contact-form-text"
-            placeholder="Your email"
-            required
-          /><input
-            type="text"
-            class="contact-form-text"
-            placeholder="Your phone"
-            required
-          />
-          <textarea
-            class="contact-form-text"
-            placeholder="Your message"
-            required
-          ></textarea>
-          <input type="submit" class="contact-form-btn" value="Send" />
-          <input type="checkbox" name="subscribe" checked="checked" />
-          <p class="sub">Tick to subscribe!</p>
-        </form>
+    <div class="container">
+      <div class="outer">
+        <h2><a target="_blank" href="contact.html"></a></h2>
+        <h2 class="toDev">to developer:</h2>
+        <div class="contact-section">
+          <form class="contact-form" action="subscribed.html">
+            <!---------------------------------------------------------------------------Name form-->
+            <input
+              type="text"
+              class="contact-form-text"
+              placeholder="Your name"
+              required
+            />
+            <!---------------------------------------------------------------------------Phone form-->
+            <input
+              type="text"
+              class="contact-form-text"
+              placeholder="Your phone"
+              required
+            />
+            <!---------------------------------------------------------------------------Email form-->
+            <input
+              type="email"
+              id="emailBox"
+              class="contact-form-text"
+              placeholder="Your email"
+              required
+            />
+            <!---------------------------------------------------------------------------Comment form-->
+            <textarea
+              class="contact-form-text"
+              placeholder="Your message"
+              required
+            ></textarea>
+            <!---------------------------------------------------------------------------Submit button form-->
+            <input type="submit" class="contact-form-btn" value="Send" />
+            <input type="checkbox" name="subscribe" checked="checked" />
+            <p class="sub">Tick to subscribe!</p>
+          </form>
+        </div>
       </div>
     </div>
-
+    <!---------------------------------------------------------------------------Footer-->
     <footer class="footer">
       &copy; 2023 fishing match pro team
       <br />

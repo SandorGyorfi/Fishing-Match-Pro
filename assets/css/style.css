@@ -13,7 +13,7 @@ body {
   background-repeat: no-repeat;
   background-size: 300px;
   background-blend-mode: overlay;
-  background-position: right 50%;
+
   min-height: 100vh;
 }
 nav {
@@ -38,20 +38,20 @@ h3 {
   text-transform: uppercase;
   text-decoration: underline;
   margin-top: 0;
-  font-size: 30px;
+  font-size: 16px;
   color: #f6f1f1;
 }
+
 button {
   font-weight: lighter;
   text-transform: uppercase;
   background-color: #684d37;
   color: #f6f1f1;
   border: none;
-  padding: 10px 20px;
-  margin-top: 10px;
+  margin: 5px;
   cursor: pointer;
-  border-radius: 6%;
-
+  border-radius: 3%;
+  padding: 4%;
 }
 
 input[type="text"] {
@@ -84,6 +84,7 @@ textarea.contact-form-text {
 input {
   accent-color: #262020;
 }
+
 /*-------------------------------------------------------------Classes--*/
 .sign {
   text-align: center;
@@ -108,7 +109,7 @@ input {
   max-width: 858px;
   height: 400px;
   margin: auto;
-  padding: 0 10px;
+  padding: 15px;
   overflow: hidden;
   box-shadow: 1.25px 2.5px 5px 1.25px #262020;
   border-radius: 3%;
@@ -132,6 +133,7 @@ input {
 .toDev {
   text-align: left;
   padding-left: 12%;
+  margin: 20px;
 }
 
 .contact-form-btn {
@@ -162,6 +164,7 @@ input {
 .sub_end_p {
   color: #f6f1f1;
   font-weight: lighter;
+  padding: 15%;
 }
 
 .logo {
@@ -178,7 +181,7 @@ input {
   justify-content: center;
   background-color: #537351;
   flex-wrap: wrap;
-  margin-top: 30px;
+  margin: 10px;
   box-shadow: 2.5px 5px 10px 2.5px #262020;
   border-radius: 12px;
   min-height: 100vh;
@@ -189,17 +192,15 @@ input {
   color: #bfaa84;
   padding: 10px;
   margin: 10px;
-  width: 700px;
-  max-width: 858px;
+  width: 858px;
   font-weight: lighter;
   text-align: center;
   border-radius: 3%;
 }
 
 .sw {
-  
   text-align: center;
-  
+  padding: 9%;
 }
 
 .footer {
@@ -209,57 +210,84 @@ input {
 }
 
 /*-------------------------------------------------------------ID's--*/
+
 #resetButton {
-  text-align: right;
-  box-shadow: 1.25px 2.5px 5px 1.25px #262020;
-  font-size: 30px;
+  text-align: center;
+  font-size: 20px;
+  margin: 15px;
 }
 #lapButton {
-  font-size: 50px;
+  text-align: center;
+  font-size: 35px;
+  padding: 10%;
+  margin: 0 10 30 0px;
+}
+
+#emailBox {
+  max-width: 250px;
+  max-height: 26px;
 }
 
 #kgButton {
-  font-size: 50px;
+  text-align: center;
+  font-size: 35px;
+  padding: 10%;
+  margin: 0 10 30 0px;
 }
 
 #startButton {
-  font-size: 40px;
+  text-align: center;
+  font-size: 25px;
+  padding: 10%;
+  margin: 15px;
 }
 #stopButton {
-  font-size: 40px;
+  text-align: center;
+  font-size: 25px;
+  padding: 10%;
+  margin: 15px;
 }
 #stopwatchDisplay {
-  font-size: 60px;
+  text-align: center;
+  font-size: 80px;
   color: #f6f1f1;
+  padding: 4%;
 }
 #lapCounterDisplay {
-  font-size: 120px;
+  text-align: center;
+  font-size: 100px;
   color: #f6f1f1;
+  margin: 30px;
 }
 #kgCounterDisplay {
-  font-size: 120px;
+  text-align: center;
+  font-size: 100px;
   color: #f6f1f1;
-
+  margin: 30px;
 }
 #lapTimesList {
   text-transform: capitalize;
   font-weight: lighter;
   text-align: center;
-  font-size: 20px;
+  font-size: 16px;
   color: #f6f1f1;
+  margin: 10px;
+  padding: 2%;
 }
 #noteList {
   text-transform: capitalize;
   font-weight: lighter;
   text-align: center;
-  font-size: 20px;
+  font-size: 16px;
   color: #f6f1f1;
+  margin: 10px;
+  padding: 2%;
 }
 
 #noteForm {
   color: #262020;
 }
-/*-------------------------------------------------------------Media query--*/
+/*-------------------------------------------------------------Media queries 768px--*/
 @media only screen and (min-width: 768px) {
   .toDev {
     float: left;
@@ -272,6 +300,7 @@ input {
     padding: 4em;
   }
 }
+/*-------------------------------------------------------------Media queries 1100px--*/
 @media only screen and (min-width: 1100px) {
   .outer {
     margin: 0 auto;
@@ -330,6 +359,7 @@ a:hover {
 #check {
   display: none;
 }
+/*-------------------------------------------------------------Media queries 952px--*/
 @media (max-width: 952px) {
   .logo {
     font-weight: lighter;
@@ -343,6 +373,7 @@ a:hover {
     float: left;
   }
 }
+/*-------------------------------------------------------------Media queries 858px--*/
 @media (max-width: 858px) {
   .checkbtn {
     display: block;
