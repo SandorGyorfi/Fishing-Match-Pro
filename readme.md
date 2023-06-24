@@ -2,7 +2,7 @@
 
 ## Web application for anglers
 
-![mockup](assets/images/mockup.png)
+![mockup](assets\images\website_mockup.png)
 
 <p>&nbsp;</p>
 
@@ -16,7 +16,9 @@ Click [here](https://sandorgyorfi.github.io/Fishing-Match-Pro/) to visit the liv
 
 <p>&nbsp;</p>
 
-On each page, there are two menu options: the main menu, which is about the web application, and the contact menu, which is about communicating with the developer if any problems arise.
+A standard fishing match has a few items and data is quite crucial. The timing of baits, the kilogramme amounts in keep nets, and the time gap between catches are all important considerations. All three of them are aided by the Fishing Match Pro, which also includes a note option.
+
+On each page, there are two menu options: the main menu, which has information about the web application, and the contact menu, which contains information about contacting the developer if any problems emerge.
 
  <p>&nbsp;</p>
 
