@@ -2,7 +2,7 @@
 
 ## Web application for anglers
 
-![mockup](assets\images\website_mockup.png)
+![mockup](assets/images/website_mockup.png)
 
 <p>&nbsp;</p>
 
@@ -80,7 +80,7 @@ Click [here](assets/images/wireframes.png) to visit the wireframe sample.
 
   <p>&nbsp;</p>
 
- <img src="assets\images\contact_form.png" width=850px height=600px>
+ <img src="assets/images/contact_form.png" width=850px height=600px>
 
  <p>&nbsp;</p>
 
@@ -119,7 +119,7 @@ No errors were found when passing through the official (http://validator.w3.org)
 
 <p>&nbsp;</p>
 
-<img src="assets\images\html_main_validation.png" width=600px height=200px>
+<img src="assets/images/html_main_validation.png" width=600px height=200px>
 
 <p>&nbsp;</p>
 
@@ -127,7 +127,7 @@ No errors were found when passing through the official (http://validator.w3.org)
 
 <p>&nbsp;</p>
 
-<img src="assets\images\html_contact_validation.png" width=600px height=200px>
+<img src="assets/images/html_contact_validation.png" width=600px height=200px>
 
 <p>&nbsp;</p>
 
@@ -135,7 +135,7 @@ No errors were found when passing through the official (http://validator.w3.org)
 
 <p>&nbsp;</p>
 
-<img src="assets\images\html_subscribed_validation.png" width=600px height=200px>
+<img src="assets/images/html_subscribed_validation.png" width=600px height=200px>
 
 <p>&nbsp;</p>
 
@@ -145,7 +145,7 @@ No errors were found when passing through the official (http://validator.w3.org)
 
 <p>&nbsp;</p>
 
-<img src="assets\images\css_validation.png" width=600px height=200px>
+<img src="assets/images/css_validation.png" width=600px height=200px>
 
 <p>&nbsp;</p>
 
@@ -155,7 +155,7 @@ No errors were found when passing through the official (http://validator.w3.org)
 
 <p>&nbsp;</p>
 
-<img src="assets\images\javascript_test.png" width=600px height=200px>
+<img src="assets/images/javascript_test.png" width=600px height=200px>
 
 <p>&nbsp;</p>
 
