@@ -28,7 +28,7 @@ On each page, there are two menu options: the main menu, which has information a
 
 # User Experience
 
-Click [here](assets/images/wireframes.png) to visit the wireframe sample.
+Click [here](assets/images/wireframe.png) to visit the wireframe sample.
 
 - The Fishing Match Pro online application is a creative option for fishermen who want to employ tiny multifunctional fishing instruments.
 
