@@ -226,7 +226,17 @@ input {
   top: 100%;
 }
 
+.feedback{
+  width: 300px;
+  height: 150px;
+  overflow: hidden;
+}
 
+.feedback-item{
+  animation: roll 5s infinite;
+  font-size: 18px;
+  line-height: 28px;
+}
 /*-------------------------------------------------------------ID's--*/
 
 #resetButton {
