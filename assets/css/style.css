@@ -129,6 +129,7 @@ input {
   overflow: hidden;
   box-shadow: 1.25px 2.5px 5px 1.25px #262020;
   border-radius: 3%;
+  
 }
 .contact-form-text {
   display: block;
@@ -155,7 +156,7 @@ input {
 .contact-form-btn {
   float: right;
   border: 0;
-  background: #262020;
+  background: #384734;
   color: #f6f1f1;
   padding: 12px 44px;
   cursor: pointer;

@@ -131,7 +131,7 @@ No errors were found when passing through the official (http://validator.w3.org)
 
 <p>&nbsp;</p>
 
-### Subscribed Page HTML Validation:
+### Manual and Subscribed Page HTML Validation:
 
 <p>&nbsp;</p>
 
