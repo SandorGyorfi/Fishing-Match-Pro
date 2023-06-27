@@ -194,6 +194,28 @@ No errors were found when passing through the official (http://validator.w3.org)
 
  <p>&nbsp;</p>
 
+# Feedback reports from users:
+
+An anonymous user requested the ability to take notes while fishing. A notes card was added to the page by the developer.
+
+-An anonymous user with deuteranopia requested a colour modification. - Colours have been changed by the developer.
+
+-An anonymous user asked for instructions on how to use the main page. - Developer added a manual page.
+
+-Laszlo, a user, wanted an angler webshop. In version 3.0, the developer plans to include a webshop.
+
+<p>&nbsp;</p>
+
+## Reporting doubts and errors
+
+-Fore any queries please send an email at mr.sandorgyorfi@gmail.com
+
+-Please refer to the publication for detailed results and model performances
+
+
+
+<p>&nbsp;</p>
+
 # Credits
 
 - All the codes written by Sandor Gyorfi
