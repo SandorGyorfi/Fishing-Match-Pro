@@ -243,7 +243,11 @@ input {
   position: sticky;
   top: 100%;
 }
-
+.man2{
+  text-align: center;
+  color: #f6f1f1;
+  padding: 3%;
+}
 /*-------------------------------------------------------------ID's--*/
 
 #resetButton {
@@ -491,5 +495,5 @@ a:hover {
   #check:checked ~ ul {
     left: 0;
   }
-  
+
 }
