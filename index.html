@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <script
-      src="https://kit.fontawesome.com/2491a66cc6.js"
-      crossorigin="anonymous"
-    ></script>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <script src="https://kit.fontawesome.com/2491a66cc6.js" crossorigin="anonymous"></script>
+    <title>Fishing Match Pro</title>
   </head>
-
   <body>
     <nav>
       <input type="checkbox" id="check" />
       <label for="check" class="checkbtn">
-        <i class="fa-solid fa-bars"></i
-      ></label>
+        <i class="fa-solid fa-bars"></i>
+      </label>
       <label class="logo">fishing match pro</label>
       <ul>
         <li><a class="active" href="index.html">Main</a></li>
@@ -28,41 +25,38 @@
       <div class="card">
         <div class="divRight">
           <h3>catch counter</h3>
-          <!---------------------------------------------------------------------------Catch button and display-->
+          <!--Catch button and display-->
           <button id="lapButton">catch</button>
           <p id="lapCounterDisplay">0</p>
         </div>
-
         <div class="divLeft">
           <h3>est kg counter</h3>
-          <!---------------------------------------------------------------------------+Kg button and display-->
+          <!--+Kg button and display-->
           <button id="kgButton">+1 kg</button>
           <p id="kgCounterDisplay">0kg</p>
         </div>
         <h3 class="sw">stopwatch:</h3>
-        <!---------------------------------------------------------------------------Stopwatch start button-->
+        <!--Stopwatch start button-->
         <div class="divRight">
           <button id="startButton">bait in!</button>
         </div>
-        <!---------------------------------------------------------------------------Stopwatch stop button-->
+        <!--Stopwatch stop button-->
         <div class="divLeft">
           <button id="stopButton">stop</button>
         </div>
-        <!---------------------------------------------------------------------------Stopwatch display-->
+        <!--Stopwatch display-->
         <p id="stopwatchDisplay">00:00:00</p>
-        <!---------------------------------------------------------------------------Reset button-->
+        <!--Reset button-->
         <button id="resetButton">Reset</button>
       </div>
-      <!---------------------------------------------------------------------------Catch lap times display-->
+      <!--Catch lap times display-->
       <div class="card">
         <h3>catch times</h3>
-
         <ol id="lapTimesList"></ol>
       </div>
-      <!---------------------------------------------------------------------------Note form-->
+      <!--Note form-->
       <div class="card">
         <h3>notes today</h3>
-
         <form id="noteForm">
           <input
             type="text"
@@ -71,29 +65,16 @@
           />
           <button type="button" id="addNoteButton">list</button>
         </form>
-        <!---------------------------------------------------------------------------Note display-->
+        <!--Note display-->
         <ol id="noteList"></ol>
       </div>
-      <!-------------------Feedbacks-->
-    <div class="card">
-      <div class="feedback">
-        <div class="feedback-item"></div>
-        <div class="feedback-item"></div>
-        <div class="feedback-item"></div>
-        <div class="feedback-item"></div>
-        <div class="feedback-item"></div>
-        <div class="feedback-item"></div>
-
-      </div>
     </div>
-    </div>
-    <!---------------------------------------------------------------------------Footer-->
+    <!--Footer-->
     <footer class="footer">
       &copy; 2023 fishing match pro team
       <br>
       <p class="sign">designed by SG</p>
     </footer>
-
     <script src="assets/js/script.js"></script>
   </body>
 </html>
